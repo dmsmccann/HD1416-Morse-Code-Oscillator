@@ -1,4 +1,4 @@
-20252618628409908
+20254270660465935
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85784,6 +85784,13 @@ footprints
 0
 3
 3
+footprints
+BatteryHolder_MPD_BA9VPC_1xPP3 dem
+1xPP3 (9V) battery holder, Memory Protection Devices P/N BA9VPC, http://www.memoryprotectiondevices.com/datasheets/BA9VPC-datasheet.pdf
+PP3 Battery Holder BA9VPC 9V
+0
+2
+2
 footprints
 CF12JT8K20
 
