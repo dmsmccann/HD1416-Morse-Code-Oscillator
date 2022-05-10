@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Dougl\OneDrive\Ham Radio\KiCad Files\HD1416\HD1416\HD1416.kicad_sch</source>
+    <date>5/8/2022 1:57:27 PM</date>
+    <tool>Eeschema (6.0.4)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>HD1416 Code Oscillator</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2022-05-01</date>
+        <source>HD1416.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value="KA3KAF and KA3KAG"/>
+        <comment number="4" value="Inspired by Heathkit"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>.01u</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/C315C104M5U5TA7303</datasheet>
+      <fields>
+        <field name="Spice_Model">.01u</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value=".01u"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c3baf61-1710-49e6-9158-ae9eb1a91e88</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>.005u</value>
+      <footprint>Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/kemet/C315C103K5R5TA7303/3726109</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24d20a7d-c0ed-4f53-8c3d-0c655e1ebdd0</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>.01u</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/C315C103K5R5TA7303</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba42d2d6-895c-44b2-8c3d-341bfc8b747d</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>.1u</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/C315C104M5U5TA7303</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07b6b916-8ba4-44f3-a316-c89e5a07be2d</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>.2u</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/C315C104M5U5TA7303</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7f5133b-869d-46ba-822a-a6f693737343</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>D1N4005</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Spice_Lib_File">standard.dio</field>
+        <field name="Spice_Model">D1N4005</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Diode" part="1N4005" description="600V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Spice_Model" value="D1N4005"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="standard.dio"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53b15f8d-2bd4-4e8b-a7f8-9bcd21dfe18c</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>8200</value>
+      <footprint>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>587c0cab-b72b-46ef-8895-acafc6196c30</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>F</value>
+      <footprint>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dbf3b06-d10d-4fb6-9903-cbee6f67bd21</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>E</value>
+      <footprint>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d0f7e7f-0331-4f7f-bca7-90d582ca910f</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>D</value>
+      <footprint>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67c9abb5-f742-403e-ac5a-a8bc45a6fc3c</tstamps>
+    </comp>
+    <comp ref="H7">
+      <value>C</value>
+      <footprint>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca6a1982-75d7-4bf2-9184-1f00b44da618</tstamps>
+    </comp>
+    <comp ref="H8">
+      <value>B</value>
+      <footprint>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b530a66-2250-45cf-a4f0-b2c82c1b3925</tstamps>
+    </comp>
+    <comp ref="H9">
+      <value>ST</value>
+      <footprint>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92cb8be9-af19-44f9-8817-2ac67707bc75</tstamps>
+    </comp>
+    <comp ref="H10">
+      <value>A</value>
+      <footprint>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28c35ab3-ff32-4619-a963-7b5fb86858be</tstamps>
+    </comp>
+    <comp ref="H11">
+      <value>GND</value>
+      <footprint>Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18bbc40e-b6d1-4895-9374-760f8bb5cf66</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>AudioJack2</value>
+      <footprint>Connector_Audio:Jack_6.35mm_Neutrik_NJ2FD-V_Vertical</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/switchcraft-inc/12B/109541</datasheet>
+      <fields>
+        <field name="Spice_Model">1</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Model" value="1"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f90186e-f3fe-4716-b6f7-ac5732f561d2</tstamps>
+    </comp>
+    <comp ref="LS1">
+      <value>50</value>
+      <footprint>Buzzer_Beeper:Speaker_CUI_CMR-1206S-67</footprint>
+      <datasheet>https://www.visaton.de/sites/default/files/dd_product/k50fl_50.pdf</datasheet>
+      <fields>
+        <field name="Spice_Model">50</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Device" part="Speaker" description="Speaker"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Model" value="50"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a8480ae-1026-4245-ab88-e1d30520ed35</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>MPSA20</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</datasheet>
+      <fields>
+        <field name="Spice_Lib_File">standard.bjt</field>
+        <field name="Spice_Model">MPSA20</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Node_Sequence">3 2 1</field>
+        <field name="Spice_Primitive">Q</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="2N2219" description="800mA Ic, 50V Vce, NPN Transistor, TO-39"/>
+      <property name="Spice_Primitive" value="Q"/>
+      <property name="Spice_Model" value="MPSA20"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Node_Sequence" value="3 2 1"/>
+      <property name="Spice_Lib_File" value="standard.bjt"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d61c4fe-379c-49a7-a6d8-6a9306baf197</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>MPSA20</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</datasheet>
+      <fields>
+        <field name="Spice_Lib_File">standard.bjt</field>
+        <field name="Spice_Model">MPSA20</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Node_Sequence">3 2 1</field>
+        <field name="Spice_Primitive">Q</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="2N2219" description="800mA Ic, 50V Vce, NPN Transistor, TO-39"/>
+      <property name="Spice_Primitive" value="Q"/>
+      <property name="Spice_Model" value="MPSA20"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Node_Sequence" value="3 2 1"/>
+      <property name="Spice_Lib_File" value="standard.bjt"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c78c350b-c435-4db9-a7c2-259759790359</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BC547A</value>
+      <footprint>Package_TO_SOT_THT:TO-39-3</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</datasheet>
+      <fields>
+        <field name="Spice_Lib_File">standard.bjt</field>
+        <field name="Spice_Model">BC547A</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Node_Sequence">3 2 1</field>
+        <field name="Spice_Primitive">Q</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="2N2219" description="800mA Ic, 50V Vce, NPN Transistor, TO-39"/>
+      <property name="Spice_Primitive" value="Q"/>
+      <property name="Spice_Model" value="BC547A"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Node_Sequence" value="3 2 1"/>
+      <property name="Spice_Lib_File" value="standard.bjt"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a796a5dc-3ef8-4a07-97cf-5cea8f7f86d8</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>footprints:CFM12JT10K0</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-cf_cfm.pdf</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0965facf-d28f-4f3e-92e5-6e21d166dbf1</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>220k</value>
+      <footprint>footprints:SFR16S0002203FR500</footprint>
+      <datasheet>https://www.vishay.com/docs/28722/sfr16s25.pdf</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>167dd15e-c17b-491c-94ed-ef919123b5b2</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>pot_lin2</value>
+      <footprint>footprints:3299X-1-504LF</footprint>
+      <fields>
+        <field name="Spice_Lib_File">Pot2.lib</field>
+        <field name="Spice_Model">pot_lin2</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer_Trim_US" description="Trim-potentiometer, US symbol"/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="pot_lin2"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="Pot2.lib"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96ae4ac9-836f-4c9d-acab-b6816b8ca3fe</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>68k</value>
+      <footprint>footprints:CFR-50JB-52-68K</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20CFR_datasheet_2021v0.pdf</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0be63cf5-c442-4624-a9a3-f6ab28d6b865</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>5.6k</value>
+      <footprint>footprints:CFR-50JB-52-5K6</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/lr/YAGEO%20CFR_datasheet_2021v0.pdf</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c83a27f-1404-4765-88ab-86ea64b95e84</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>2.2k</value>
+      <footprint>footprints:CFM12JT2K20</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-cf_cfm.pdf</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84f63bb6-4eb9-4689-a4f3-3048ae3cbd72</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>33k</value>
+      <footprint>footprints:CFM12JT33K0</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-cf_cfm.pdf</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f60e9d6b-90e8-4303-8fbf-1740eb2782f4</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>pot_lin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/pda24.pdf</datasheet>
+      <fields>
+        <field name="Spice_Lib_File">Pot.lib</field>
+        <field name="Spice_Model">pot_lin</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+        <field name="Value2">Rt=25k</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer_Trim_US" description="Trim-potentiometer, US symbol"/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="pot_lin"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="Pot.lib"/>
+      <property name="Value2" value="Rt=25k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d6d79aa-3153-425d-b3e8-bdf472b45573</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>8200</value>
+      <footprint>footprints:CF12JT8K20</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-cf_cfm.pdf</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fca1f501-c814-46ff-aaf7-b3d756be9b6b</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint_Flag</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Flag" description="test point (alternative flag-style design)"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d4a752b-cc56-447b-9862-f2677b2033db</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint_Flag</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Flag" description="test point (alternative flag-style design)"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ac98cf4-6a16-4035-9e8f-5861024b9940</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint_Flag</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Flag" description="test point (alternative flag-style design)"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07deceb4-ee0a-41a9-acdf-2bdd71f2448a</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint_Flag</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Flag" description="test point (alternative flag-style design)"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e091d0d4-05db-48ca-9fe4-0d644df1d076</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint_Flag</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Flag" description="test point (alternative flag-style design)"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3a5c31e-2981-4630-b629-ff2b0e24f6d9</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint_Flag</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Flag" description="test point (alternative flag-style design)"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2528fd4-c36e-4de5-b887-4b743b5e07e6</tstamps>
+    </comp>
+    <comp ref="V1">
+      <value>9</value>
+      <footprint>footprints:BatteryHolder_MPD_BA9VPC_1xPP3 dem</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p13.pdf</datasheet>
+      <fields>
+        <field name="Spice_Model">dc 9</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="pspice" part="VSOURCE" description="Voltage source symbol for simulation only"/>
+      <property name="Spice_Primitive" value="V"/>
+      <property name="Spice_Model" value="dc 9"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HD1416.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c04386e0-b49e-4fff-b380-675af13a62cb</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AudioJack2">
+      <description>Audio Jack, 2 Poles (Mono / TS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint_Flag">
+      <description>test point (alternative flag-style design)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_Flag</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_Trim_US">
+      <description>Trim-potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_Trim_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Speaker">
+      <description>Speaker</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">Speaker</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4005">
+      <description>600V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4005</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N2219">
+      <description>800mA Ic, 50V Vce, NPN Transistor, TO-39</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</docs>
+      <footprints>
+        <fp>TO?39*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N2219</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-39-3</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="VSOURCE">
+      <description>Voltage source symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">V</field>
+        <field name="Value">VSOURCE</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E1" type="input"/>
+        <pin num="2" name="E2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Kicad-libraries\Official\kicad-symbols/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Kicad-libraries\Official\kicad-symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Kicad-libraries\Official\kicad-symbols/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Kicad-libraries\Official\kicad-symbols/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Kicad-libraries\Official\kicad-symbols/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Kicad-libraries\Official\kicad-symbols/pspice.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+9">
+      <node ref="LS1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="V1" pin="1" pinfunction="E1" pintype="input"/>
+    </net>
+    <net code="2" name="/astable1">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/astable2">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/node5">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/node6">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/speaker">
+      <node ref="LS1" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="H10" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H11" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H6" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H9" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="V1" pin="2" pinfunction="E2" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="H8" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H5" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H7" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="T" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(H3-Pad1)">
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="S" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
