@@ -2310,6 +2310,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 65c76884-ab6f-44eb-bf1f-f70506cc600e)
   )
+  (text "Sim of nodes astable 1, astable 2, and speaker" (at 43.18 69.85 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7b9091e3-c19e-46f9-ae71-24084fa5948d)
+  )
 
   (label "astable1" (at 92.71 93.98 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
