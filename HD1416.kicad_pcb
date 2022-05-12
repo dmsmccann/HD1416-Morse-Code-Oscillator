@@ -312,6 +312,11 @@
       (net 13 "Net-(R3-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 082ec730-088b-4960-9d6f-6935628506a7))
     (pad "3" thru_hole circle locked (at 5.08 0) (size 1.27 1.27) (drill 0.762) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "3") (pintype "passive") (tstamp 5be63571-a4c2-4318-a9ba-7b84955c649e))
+    (model "${KIPRJMOD}/3D Models/3299X.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "TestPoint:TestPoint_Pad_D2.0mm" (layer "F.Cu")
@@ -1319,11 +1324,11 @@
     (property "Sheetname" "")
     (path "/24d20a7d-c0ed-4f53-8c3d-0c655e1ebdd0")
     (attr through_hole)
-    (fp_text reference "C2" (at 1.27 0 -90) (layer "F.SilkS")
+    (fp_text reference "C2" (at 1.27 2.286 -90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7514181d-4b93-44cc-9ca7-051e857346c5)
     )
-    (fp_text value ".005u" (at 1.27 0 -90) (layer "F.SilkS")
+    (fp_text value ".005u" (at 1.27 -2.286 -90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 09932d00-40d2-44f7-a7a8-9b4da70484c9)
     )
@@ -1419,9 +1424,9 @@
     (pad "2" thru_hole circle locked (at 2.54 0 270) (size 1.3716 1.3716) (drill 0.8636) (layers *.Cu *.Mask)
       (net 4 "Net-(C2-Pad2)") (pintype "passive") (tstamp 1819c0cd-3f0e-40a5-b093-f1bbee1c4b62))
     (model "${KIPRJMOD}/3D Models/C315C103K5R5TA7303.step"
-      (offset (xyz -0.5 -1 0.5))
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 -180))
+      (rotate (xyz 0 0 0))
     )
   )
 
