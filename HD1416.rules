@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 301)
+    (start_pass_no 443)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -54,7 +54,7 @@
   )
   (class default
     "Net-(C1-Pad1)" GND /astable2 "Net-(C2-Pad2)" /astable1 "Net-(C3-Pad2)" "Net-(C4-Pad2)" "Net-(C5-Pad1)"
-    "Net-(C5-Pad2)" "Net-(H3-Pad1)" VCC /speaker "Net-(R3-Pad2)" "Net-(C1-Pad2)"
+    "Net-(C5-Pad2)" VCC /speaker "Net-(R3-Pad2)" "Net-(C1-Pad2)"
     (clearance_class default)
     (via_rule default)
     (rule

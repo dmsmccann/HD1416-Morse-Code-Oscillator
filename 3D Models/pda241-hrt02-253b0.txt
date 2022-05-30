@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-18112016-086440";"";
+"REFERENCE";"PDA241-HRT02-253B0";"";
+"TraceParts.PartTitle";"24 mm Guitar Potentiometer 25K 15%";"";
+"TraceParts.InstanceId";"10-18112016-086440709FOS3HC182O9TL0W9JQXHOR";"";
+"DESIGN";"24 mm Guitar Potentiometer 25K 15%";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"BOURNS";"";
+"TraceParts.PartVersion";"1.0.0";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"BOURNS:10-18112016-086440";"";
