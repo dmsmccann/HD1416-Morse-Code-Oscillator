@@ -27,3 +27,8 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+~HD1416.kicad_pcb.lck
+~HD1416.kicad_sch.lck
+HD1416.kicad_prl
+sym-lib-table
+#auto_saved_files#

@@ -12,158 +12,6 @@
 		(comment 4 "Inspired by Heathkit")
 	)
 	(lib_symbols
-		(symbol "Connector:AudioJack2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack2"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle mono phone headphone TS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioJack2_0_1"
-				(rectangle
-					(start -3.81 0)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AudioJack2_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x01_Socket"
 			(pin_names
 				(offset 1.016) hide)
@@ -389,6 +237,188 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Audio:AudioJack3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack3"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack3_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1002,8 +1032,7 @@
 		)
 		(symbol "Diode:1N4005"
 			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1042,6 +1071,24 @@
 				)
 			)
 			(property "Description" "600V 1A General Purpose Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1670,9 +1717,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1720,7 +1767,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1746,8 +1793,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1816,7 +1863,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "flag power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1829,7 +1876,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1862,22 +1909,10 @@
 		)
 	)
 	(junction
-		(at 200.66 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04097764-845e-4ce3-9e40-eb5ec5f1315a")
-	)
-	(junction
 		(at 199.39 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13bbf065-6ad2-4dd5-b0e8-b3778e9917c1")
-	)
-	(junction
-		(at 222.25 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e31b80e-0be2-473f-8906-01e73cb329f6")
 	)
 	(junction
 		(at 222.25 135.89)
@@ -1916,6 +1951,12 @@
 		(uuid "4f025731-d647-4bb5-809e-22f05db08c81")
 	)
 	(junction
+		(at 222.25 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a436485-4a45-42ef-afbd-941f4ac8f84f")
+	)
+	(junction
 		(at 210.82 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1946,10 +1987,22 @@
 		(uuid "8d79e9b2-b77c-44ae-be56-76943fe6cf43")
 	)
 	(junction
+		(at 219.71 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93af8283-7c7a-479f-8b11-fa09d94ed3f6")
+	)
+	(junction
 		(at 154.94 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98b25c20-f6a6-46e1-8efe-ce089b2fce8f")
+	)
+	(junction
+		(at 193.04 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bf24de1-09e2-4f0c-9b9f-0cb7b783a8cc")
 	)
 	(junction
 		(at 179.07 81.28)
@@ -1976,16 +2029,10 @@
 		(uuid "b57691ac-45e2-4fef-b67e-be0698b53c0a")
 	)
 	(junction
-		(at 193.04 143.51)
+		(at 210.82 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cb80a755-1663-4e22-b9de-a806f0553760")
-	)
-	(junction
-		(at 219.71 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de070a50-b94e-42f6-b065-fdba6d5db6da")
+		(uuid "d9d7daa1-8af0-4ef6-a85f-b17180e1ac9c")
 	)
 	(junction
 		(at 223.52 101.6)
@@ -1994,10 +2041,26 @@
 		(uuid "e62b4453-f83e-4b9b-990b-4fba8cb9c1c3")
 	)
 	(junction
+		(at 200.66 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e734b664-f681-4ec2-adcb-600f6ef183dd")
+	)
+	(junction
 		(at 38.1 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff05a019-54e0-4ebd-bc3b-004e644721b1")
+	)
+	(wire
+		(pts
+			(xy 193.04 151.13) (xy 193.04 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b26019-f80c-4673-8089-052ad5d9b67b")
 	)
 	(wire
 		(pts
@@ -2008,6 +2071,16 @@
 			(type default)
 		)
 		(uuid "0250cdda-27d5-41a2-9a41-06f9e3c7dd77")
+	)
+	(wire
+		(pts
+			(xy 210.82 154.94) (xy 210.82 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "058698fe-2a1c-4a93-8225-e8c2c7faa1ed")
 	)
 	(wire
 		(pts
@@ -2031,6 +2104,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 151.13) (xy 200.66 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09873fbc-036c-454d-9012-47659a69bfcd")
+	)
+	(wire
+		(pts
 			(xy 115.57 81.28) (xy 139.7 81.28)
 		)
 		(stroke
@@ -2041,16 +2124,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 128.27) (xy 199.39 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d9392fd-0318-44a0-9c38-63e13481c63e")
-	)
-	(wire
-		(pts
 			(xy 187.96 97.79) (xy 179.07 97.79)
 		)
 		(stroke
@@ -2058,6 +2131,16 @@
 			(type default)
 		)
 		(uuid "100212b7-80bb-42dc-ba5b-9f22a5422f30")
+	)
+	(wire
+		(pts
+			(xy 222.25 151.13) (xy 222.25 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13983b5f-9808-45fc-bf40-09f76e6d29df")
 	)
 	(polyline
 		(pts
@@ -2211,16 +2294,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 128.27) (xy 210.82 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "476e5f3c-9b2e-450d-a2a5-b5554efd2c05")
-	)
-	(wire
-		(pts
 			(xy 86.36 104.14) (xy 92.71 104.14)
 		)
 		(stroke
@@ -2231,26 +2304,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 147.32) (xy 200.66 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e3115e2-0e0d-4673-8e9e-032e70f76b73")
-	)
-	(wire
-		(pts
-			(xy 193.04 143.51) (xy 193.04 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ebfac92-f68b-4c39-84b9-8d45f67df7e7")
-	)
-	(wire
-		(pts
 			(xy 179.07 97.79) (xy 179.07 104.14)
 		)
 		(stroke
@@ -2258,6 +2311,16 @@
 			(type default)
 		)
 		(uuid "4ed5a4cb-42d2-4cd1-a2f4-be7f70116c48")
+	)
+	(wire
+		(pts
+			(xy 222.25 142.24) (xy 222.25 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4facab46-f06e-4bad-8254-3005ac9e1b6b")
 	)
 	(wire
 		(pts
@@ -2321,7 +2384,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 139.7) (xy 219.71 154.94)
+			(xy 219.71 128.27) (xy 219.71 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2348,16 +2411,6 @@
 			(type default)
 		)
 		(uuid "68387c6c-730f-482b-bcbc-1b5d87921734")
-	)
-	(wire
-		(pts
-			(xy 222.25 147.32) (xy 222.25 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "685ffff5-bf33-4877-a001-e60c4f963e72")
 	)
 	(wire
 		(pts
@@ -2461,7 +2514,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 97.79) (xy 193.04 143.51)
+			(xy 193.04 97.79) (xy 193.04 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2581,6 +2634,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 128.27) (xy 210.82 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd3bb32-1d22-4e92-9076-c6dc53519345")
+	)
+	(wire
+		(pts
 			(xy 223.52 101.6) (xy 223.52 110.49)
 		)
 		(stroke
@@ -2601,16 +2664,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 142.24) (xy 222.25 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b62f78df-0567-4e33-83b2-2c86cce87430")
-	)
-	(wire
-		(pts
 			(xy 115.57 115.57) (xy 119.38 115.57)
 		)
 		(stroke
@@ -2621,13 +2674,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 128.27) (xy 219.71 139.7)
+			(xy 219.71 151.13) (xy 219.71 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be26a982-cea5-499d-bb84-9af53c58b9c7")
+		(uuid "c1070bb9-12db-4794-8516-045552e6ac2f")
 	)
 	(wire
 		(pts
@@ -2691,6 +2744,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 154.94) (xy 210.82 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00c9722-dcb2-4114-a0ab-8179b77c352f")
+	)
+	(wire
+		(pts
 			(xy 21.59 87.63) (xy 21.59 96.52)
 		)
 		(stroke
@@ -2701,7 +2764,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 135.89) (xy 200.66 147.32)
+			(xy 200.66 135.89) (xy 200.66 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2718,6 +2781,16 @@
 			(type default)
 		)
 		(uuid "e1925f91-2c0e-4b99-8797-15681af98749")
+	)
+	(wire
+		(pts
+			(xy 217.17 158.75) (xy 217.17 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ceed3e-3dfc-47f9-a5d9-cad0244629b6")
 	)
 	(wire
 		(pts
@@ -2828,6 +2901,16 @@
 			(type dash)
 		)
 		(uuid "fdddc72f-e8ca-4d10-9724-122a6bc01580")
+	)
+	(wire
+		(pts
+			(xy 199.39 128.27) (xy 210.82 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde0307b-a131-4ab0-857f-346610968e0e")
 	)
 	(wire
 		(pts
@@ -4029,7 +4112,7 @@
 	)
 	(text "Spice model - J1 is 1 ohm R"
 		(exclude_from_sim no)
-		(at 217.17 167.64 0)
+		(at 226.06 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4587,7 +4670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 241.3 110.49 0)
 			(effects
 				(font
@@ -4723,7 +4806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 223.52 120.65 0)
 			(effects
 				(font
@@ -4977,7 +5060,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 214.63 139.7 180)
+		(at 214.63 151.13 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -4985,7 +5068,7 @@
 		(dnp no)
 		(uuid "3d0f7e7f-0331-4f7f-bca7-90d582ca910f")
 		(property "Reference" "H5"
-			(at 216.154 138.43 0)
+			(at 217.17 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,7 +5076,7 @@
 			)
 		)
 		(property "Value" "\"F\""
-			(at 218.44 140.97 0)
+			(at 217.17 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +5084,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm"
-			(at 214.63 139.7 0)
+			(at 214.63 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5010,7 +5093,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 139.7 0)
+			(at 214.63 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5019,7 +5102,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 214.63 139.7 0)
+			(at 214.63 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5028,7 +5111,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 214.63 139.7 0)
+			(at 214.63 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +5120,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 67.31 359.41 0)
+			(at 67.31 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,7 +5129,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 67.31 359.41 0)
+			(at 67.31 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,6 +5144,106 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 219.71 163.83 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "42f2c741-0893-453b-8912-9ea74644f48b")
+		(property "Reference" "J3"
+			(at 213.36 164.4649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AudioJack3"
+			(at 213.36 167.0049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 219.71 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 219.71 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "R=+ S=-"
+			(at 219.71 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "r=1"
+			(at 219.71 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "6da6b20d-fb30-4dca-9c83-46d497103342")
+		)
+		(pin "R"
+			(uuid "e2c1e86a-4ca0-4fad-a132-0fb9a5e1b8de")
+		)
+		(pin "S"
+			(uuid "0b0a92ae-192b-4fe8-aede-f640360b2639")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5111,7 +5294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 139.7 93.98 0)
 			(effects
 				(font
@@ -5134,7 +5317,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 187.96 143.51 180)
+		(at 187.96 151.13 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -5142,7 +5325,7 @@
 		(dnp no)
 		(uuid "4b530a66-2250-45cf-a4f0-b2c82c1b3925")
 		(property "Reference" "H8"
-			(at 188.976 140.97 0)
+			(at 190.5 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,7 +5333,7 @@
 			)
 		)
 		(property "Value" "\"B\""
-			(at 191.77 144.78 0)
+			(at 190.5 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +5341,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm"
-			(at 187.96 143.51 0)
+			(at 187.96 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +5350,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 143.51 0)
+			(at 187.96 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +5359,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 187.96 143.51 0)
+			(at 187.96 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +5368,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 187.96 143.51 0)
+			(at 187.96 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,7 +5377,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 40.64 334.01 0)
+			(at 40.64 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5386,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 40.64 334.01 0)
+			(at 40.64 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5361,7 +5544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "600V 1A General Purpose Rectifier Diode, DO-41"
 			(at 30.48 115.57 0)
 			(effects
 				(font
@@ -5370,7 +5553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "SPICE"
+		(property "Sim.Device" "D"
 			(at 30.48 115.57 0)
 			(effects
 				(font
@@ -5388,7 +5571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=1 2=2"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5414,7 +5597,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 227.33 147.32 0)
+		(at 227.33 151.13 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -5422,7 +5605,7 @@
 		(dnp no)
 		(uuid "587c0cab-b72b-46ef-8895-acafc6196c30")
 		(property "Reference" "H3"
-			(at 225.298 145.288 0)
+			(at 223.52 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5614,7 @@
 			)
 		)
 		(property "Value" "\"8200\""
-			(at 224.028 149.098 0)
+			(at 222.25 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,7 +5623,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm"
-			(at 227.33 147.32 0)
+			(at 227.33 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,7 +5632,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 147.32 0)
+			(at 227.33 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5641,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 227.33 147.32 0)
+			(at 227.33 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +5650,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 227.33 147.32 0)
+			(at 227.33 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +5659,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 80.01 372.11 0)
+			(at 80.01 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +5668,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 80.01 372.11 0)
+			(at 80.01 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,7 +5732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 69.85 118.11 0)
 			(effects
 				(font
@@ -5710,7 +5893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 38.1 130.81 0)
 			(effects
 				(font
@@ -5733,7 +5916,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 205.74 147.32 0)
+		(at 205.74 151.13 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -5741,15 +5924,6 @@
 		(dnp no)
 		(uuid "67c9abb5-f742-403e-ac5a-a8bc45a6fc3c")
 		(property "Reference" "H6"
-			(at 201.422 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "\"D\""
 			(at 201.422 148.59 0)
 			(effects
 				(font
@@ -5758,8 +5932,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "\"D\""
+			(at 201.422 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm"
-			(at 205.74 147.32 0)
+			(at 205.74 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,7 +5951,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 147.32 0)
+			(at 205.74 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5777,7 +5960,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 205.74 147.32 0)
+			(at 205.74 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5786,7 +5969,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 205.74 147.32 0)
+			(at 205.74 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5795,7 +5978,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 58.42 350.52 0)
+			(at 58.42 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5804,7 +5987,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 58.42 350.52 0)
+			(at 58.42 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5870,7 +6053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 229.87 135.89 0)
 			(effects
 				(font
@@ -6304,7 +6487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 26.67 107.95 0)
 			(effects
 				(font
@@ -6320,104 +6503,6 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:AudioJack2")
-		(at 219.71 160.02 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f90186e-f3fe-4716-b6f7-ac5732f561d2")
-		(property "Reference" "J1"
-			(at 224.79 159.3849 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AudioJack2"
-			(at 224.79 161.9249 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.8mm_D0.9mm_OD2.3mm"
-			(at 219.71 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/switchcraft-inc/12B/109541"
-			(at 219.71 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SPICE"
-			(at 219.71 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "type=\"R\" model=\"1\" lib=\"\""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "S=1 T=2"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "685f7f29-687b-4bd7-ba34-d8dc3aad323d")
-		)
-		(pin "T"
-			(uuid "da07d59c-e49a-484d-9f31-3dd65fa1ed3e")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6561,7 +6646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 179.07 124.46 0)
 			(effects
 				(font
@@ -6684,7 +6769,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 210.82 147.32 270)
+		(at 205.74 156.21 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -6692,7 +6777,7 @@
 		(dnp no)
 		(uuid "9dbf3b06-d10d-4fb6-9903-cbee6f67bd21")
 		(property "Reference" "H4"
-			(at 210.566 142.748 90)
+			(at 207.01 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6701,7 +6786,7 @@
 			)
 		)
 		(property "Value" "\"E\""
-			(at 213.614 143.764 90)
+			(at 207.01 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +6795,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm"
-			(at 210.82 147.32 0)
+			(at 205.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6719,7 +6804,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 147.32 0)
+			(at 205.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6728,7 +6813,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 210.82 147.32 0)
+			(at 205.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6737,7 +6822,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 210.82 147.32 0)
+			(at 205.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6746,7 +6831,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 64.77 358.14 0)
+			(at -5.08 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6755,7 +6840,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 64.77 358.14 0)
+			(at -5.08 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6923,7 +7008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 92.71 124.46 0)
 			(effects
 				(font
@@ -7770,7 +7855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 21.59 130.81 0)
 			(effects
 				(font
