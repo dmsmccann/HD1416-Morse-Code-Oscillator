@@ -1,3 +1,0 @@
-from pcbnew import *
-
-board - GetBoard()
