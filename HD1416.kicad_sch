@@ -5154,7 +5154,7 @@
 		(at 219.71 163.83 270)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
@@ -5555,15 +5555,6 @@
 		)
 		(property "Sim.Device" "D"
 			(at 30.48 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "type=\"D\" model=\"D1N4005\" lib=\"standard.dio\""
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
