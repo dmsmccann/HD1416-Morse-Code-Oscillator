@@ -2029,6 +2029,12 @@
 		(uuid "b57691ac-45e2-4fef-b67e-be0698b53c0a")
 	)
 	(junction
+		(at 68.58 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c979cd7c-a6b1-4f34-9d6b-4d848ed82dcc")
+	)
+	(junction
 		(at 210.82 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2164,7 +2170,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 115.57) (xy 66.04 115.57)
+			(xy 69.85 115.57) (xy 68.58 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2341,6 +2347,16 @@
 			(type default)
 		)
 		(uuid "53ad2a4c-cbe1-43b5-bb7c-70e46be18b18")
+	)
+	(wire
+		(pts
+			(xy 68.58 115.57) (xy 63.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "540b5cde-3b57-49e7-9a2c-d404c3efdb9c")
 	)
 	(wire
 		(pts
@@ -2794,7 +2810,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 115.57) (xy 55.88 115.57)
+			(xy 49.53 115.57) (xy 53.34 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4110,16 +4126,25 @@
 			"v6Brm3r72NtNm8aXAAAAlFJmhpcAAAAAAABABP8HnZfH5UT/aq8AAAAASUVORK5CYII="
 		)
 	)
-	(text "Spice model - J1 is 1 ohm R"
+	(text "+"
 		(exclude_from_sim no)
-		(at 226.06 171.45 0)
+		(at 23.876 98.298 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "38bce711-2385-413d-a92e-b71c3f144ec4")
+		(uuid "0b900e18-5ce0-4c81-bf73-21c78f739048")
+	)
+	(text "D=pot lug 1"
+		(exclude_from_sim no)
+		(at 248.158 163.068 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2f8154b8-93dc-42ef-9cc3-f9f2153925f0")
 	)
 	(text ".param Rt=25k set=0.5 Rt2=500k set2=0.5\n.tran 1u 50m 0"
 		(exclude_from_sim no)
@@ -4142,6 +4167,66 @@
 			(justify left bottom)
 		)
 		(uuid "7b9091e3-c19e-46f9-ae71-24084fa5948d")
+	)
+	(text "C=phone pot lug 2"
+		(exclude_from_sim no)
+		(at 251.46 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "967df369-a94f-4bbe-98ae-6c3892a5ec0d")
+	)
+	(text "E=phone jack lug 3"
+		(exclude_from_sim no)
+		(at 251.714 164.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a1cdad78-c214-4f18-b91a-36c24ca00644")
+	)
+	(text "A=top binding post"
+		(exclude_from_sim no)
+		(at 251.46 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "affb4444-3a9a-4955-8b43-62ae47437218")
+	)
+	(text "F=phone jack lug 2"
+		(exclude_from_sim no)
+		(at 251.714 166.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8080fe1-2a2e-44dc-97ba-b4a7088b26f9")
+	)
+	(text "B=pot lug 3"
+		(exclude_from_sim no)
+		(at 248.158 159.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0195c0e-4b87-4cdc-aceb-7123942f38ea")
+	)
+	(text "-"
+		(exclude_from_sim no)
+		(at 23.876 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f08d55eb-9c4a-439b-b8a2-67ebc19b210e")
 	)
 	(label "astable1"
 		(at 92.71 93.98 0)
@@ -5076,7 +5161,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d0f7e7f-0331-4f7f-bca7-90d582ca910f")
-		(property "Reference" "H5"
+		(property "Reference" "J7"
 			(at 217.17 148.59 0)
 			(effects
 				(font
@@ -5152,7 +5237,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5164,11 +5249,12 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
 		(uuid "42f2c741-0893-453b-8912-9ea74644f48b")
-		(property "Reference" "J3"
+		(property "Reference" "J9"
 			(at 213.36 164.4649 90)
 			(effects
 				(font
@@ -5252,7 +5338,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J3")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -5333,7 +5419,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b530a66-2250-45cf-a4f0-b2c82c1b3925")
-		(property "Reference" "H8"
+		(property "Reference" "J3"
 			(at 190.5 148.59 0)
 			(effects
 				(font
@@ -5409,7 +5495,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H8")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5604,7 +5690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "587c0cab-b72b-46ef-8895-acafc6196c30")
-		(property "Reference" "H3"
+		(property "Reference" "J8"
 			(at 223.52 148.59 0)
 			(effects
 				(font
@@ -5682,7 +5768,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H3")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5755,7 +5841,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 60.96 115.57 0)
+		(at 58.42 115.57 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -5763,7 +5849,7 @@
 		(dnp no)
 		(uuid "5bf810e2-0301-40b2-b0db-351f308659e8")
 		(property "Reference" "SW1"
-			(at 61.722 110.744 0)
+			(at 59.182 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,7 +5857,7 @@
 			)
 		)
 		(property "Value" "${SIM.PARAMS}"
-			(at 60.96 111.76 0)
+			(at 58.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,7 +5866,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm"
-			(at 60.96 115.57 0)
+			(at 58.42 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,7 +5875,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 115.57 0)
+			(at 58.42 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,7 +5884,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 115.57 0)
+			(at 58.42 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5807,7 +5893,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 60.96 115.57 0)
+			(at 58.42 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5816,7 +5902,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"R\" model=\"SW_SPST\" lib=\"\""
-			(at 0 -8.89 0)
+			(at -2.54 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5825,7 +5911,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2"
-			(at 0 -8.89 0)
+			(at -2.54 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,7 +6009,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67c9abb5-f742-403e-ac5a-a8bc45a6fc3c")
-		(property "Reference" "H6"
+		(property "Reference" "J5"
 			(at 201.422 148.59 0)
 			(effects
 				(font
@@ -6001,7 +6087,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6344,7 +6430,25 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" "VBIC"
+		(property "Sim.Library" "mpsa20.lib"
+			(at 95.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "MPSA20"
+			(at 95.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
 			(at 95.25 115.57 0)
 			(effects
 				(font
@@ -6517,7 +6621,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92cb8be9-af19-44f9-8817-2ac67707bc75")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 51.562 108.712 90)
 			(effects
 				(font
@@ -6526,7 +6630,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ST"
+		(property "Value" "\"A\""
 			(at 53.594 111.252 90)
 			(effects
 				(font
@@ -6595,7 +6699,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6785,7 +6889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9dbf3b06-d10d-4fb6-9903-cbee6f67bd21")
-		(property "Reference" "H4"
+		(property "Reference" "J6"
 			(at 207.01 153.67 0)
 			(effects
 				(font
@@ -6863,7 +6967,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -7374,7 +7478,25 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" "VBIC"
+		(property "Sim.Library" "mpsa20.lib"
+			(at 176.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "MPSA20"
+			(at 176.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
 			(at 176.53 115.57 0)
 			(effects
 				(font
@@ -7478,8 +7600,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca6a1982-75d7-4bf2-9184-1f00b44da618")
-		(property "Reference" "H7"
-			(at 199.898 127.762 90)
+		(property "Reference" "J4"
+			(at 199.644 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,7 +7678,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "H7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7651,6 +7773,99 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 68.58 110.49 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1754237-a6be-476f-af42-6f9e844b8ba0")
+		(property "Reference" "J2"
+			(at 70.612 108.712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "\"GND\""
+			(at 74.93 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.3mm"
+			(at 68.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 68.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 68.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
+			(at -41.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at -41.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f53d406-aebb-4469-bdcd-a81b2ef02574")
+		)
+		(instances
+			(project "HD1416"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7889,7 +8104,7 @@
 		(lib_id "Device:R_Small_US")
 		(at 222.25 139.7 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
